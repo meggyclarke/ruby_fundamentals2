@@ -20,4 +20,12 @@ end
 
 # puts "Second item on the list was #{grocery_list[1]}"
 
-list(grocery_list.sort)
+#list(grocery_list.sort)
+
+if grocery_list.include?("blue hair dye") == true
+then grocery_list.delete("blue hair dye")
+  puts "What were you thinking you can't buy hair dye at the market?"
+        list(grocery_list)
+else
+   puts list(grocery_list)
+end
