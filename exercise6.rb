@@ -18,4 +18,6 @@ if grocery_list.include?("bananas") == true
   else puts "You don't need bananas, you just are bananas :)"
 end
 
-puts "Second item on the list was #{grocery_list[1]}"
+# puts "Second item on the list was #{grocery_list[1]}"
+
+list(grocery_list.sort)
