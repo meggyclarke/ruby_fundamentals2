@@ -12,4 +12,12 @@ def list(cohort)
   end
 end
 
-list(students)
+#list(students)
+
+def names(cohort)
+  cohort.each do |key, value|
+    puts "#{key}"
+  end
+end
+
+names(students)
