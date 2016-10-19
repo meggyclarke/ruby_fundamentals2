@@ -20,4 +20,12 @@ def names(cohort)
   end
 end
 
-names(students)
+#names(students)
+
+def increase(cohort)
+  cohort.each do |key, value|
+    puts "#{key} : #{value * 1.05}"
+  end
+end
+
+increase(students)
