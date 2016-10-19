@@ -29,5 +29,23 @@ def increase(cohort)
 end
 
 #increase(students)
-students.delete(:cohort2)
-puts students
+#students.delete(:cohort2)
+#puts students
+
+#puts hash.values.inject(0) {|sum, tuple| sum += tuple[1]}
+
+
+#def people(cohort)
+#  cohort.each do  |value|
+#    puts "#{value}"
+#  end
+#
+#sum.people(students)
+
+total = 0
+students.each do |k,v|
+  total += v
+end
+
+puts total
+# students.values.map(&:last).reduce(:+)
