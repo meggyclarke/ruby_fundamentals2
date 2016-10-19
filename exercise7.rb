@@ -4,6 +4,8 @@ students = {
   :cohort3 => 22
 }
 
+students[:cohort4] = 43
+
 def list(cohort)
   cohort.each do |key, value|
     puts "#{key}: #{value} students"
