@@ -28,4 +28,6 @@ def increase(cohort)
   end
 end
 
-increase(students)
+#increase(students)
+students.delete(:cohort2)
+puts students
