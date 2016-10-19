@@ -8,6 +8,13 @@ def list(groceries)
 end
 end
 
-list(grocery_list)
+#list(grocery_list)
 
-puts grocery_list.count
+# puts grocery_list.count
+#After this ^ worked it looks like it isnt needed again so I have hashed it out.
+
+if grocery_list.include?("bananas") == true
+    then puts "you need to buy bananas"
+  else puts "You don't need bananas, you just are bananas :)"
+end
+  
